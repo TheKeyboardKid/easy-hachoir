@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 #This script will install all of the things for hachoir to work
 #because=lazy
