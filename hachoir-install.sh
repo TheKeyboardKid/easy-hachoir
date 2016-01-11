@@ -64,4 +64,4 @@ sleep2
 #Installing hachoir-wx
 apt-get install python-hachoir-wx -y
 
-echo "Everything should be installed now - just run hachoi-urwid <filename> and you have fun!"
+echo "Everything should be installed now - just run hachoi-urwid <filename> and you have fun!!"
