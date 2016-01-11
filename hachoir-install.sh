@@ -1,4 +1,4 @@
-#!/bin/bash
+#!bin/bash
 
 #This script will install all of the things for hachoir to work
 #because=lazy
@@ -38,30 +38,30 @@ sleep 2
 
 tput setaf 3; "We're going to install some pre-reqs for hachoir to work properly - you may already have them installed"
 tput sgr0;
-sleep2
+sleep 2
 
 #installing python
 apt-get install python -y
 
 tput setaf 3; echo "Now installing hachoir-metadata"
 tput sgr0;
-sleep2
+sleep 2
 
 #Installing hachoir-metatdata
 apt-get install python-hachoir-metadata -y
 
 tput setaf 3; echo "Now installing hachoir-urwid"
 tput sgr0;
-sleep2
+sleep 2
 
 #Installing hachoir-urwid
 apt-get install python-hachoir-urwid -y
 
 tput setaf 3; echo "Now installing hachoir-wx"
 tput sgr0;
-sleep2
+sleep 2
 
 #Installing hachoir-wx
 apt-get install python-hachoir-wx -y
 
-echo "Everything should be installed now - just run hachoi-urwid <filename> and you have fun!!"
+echo "Everything should be installed now - just run hachoi-urwid <filename> and you have fun!"
